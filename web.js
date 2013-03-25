@@ -1,3 +1,8 @@
+var APPLICATION_NAME = "buy-it"
+require('nodefly').profile(
+    '8f7287bb-f406-4d1e-b3b9-0c2923d46615',
+    [APPLICATION_NAME,'Heroku']
+);
 var express = require('express');
 var app = express();
 

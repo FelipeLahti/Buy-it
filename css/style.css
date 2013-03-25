@@ -23,3 +23,7 @@ h1 {
 li {
   list-style: none;
 }
+
+.info {
+  margin: 10px 0 0 0;
+}

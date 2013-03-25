@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="products">
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>Buy it - Selling stuff</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -15,7 +15,10 @@
   </head>
 <body>    
     <div class="container-fluid">
-      <div class="row"><h1 class="text-center">Buy it</h1></div>
+      <div class="row text-center">
+        <h1 class="text-center">Buy it</h1>
+        <p>If you want to buy something contact. felipe.lahti@gmail.com or 51-97591933</p>
+      </div>
       <div class="row-fluid" ng-controller="ProductsCtrl">        
         <ul>
           <li class="product" ng-repeat="product in products">
@@ -26,8 +29,8 @@
               </slide>
             </carousel>
             <div class="info text-center">
-              <p>pt: {{product.description.pt}}</p>
-              <p>en: {{product.description.en}}</p>
+              <p>{{product.description}}</p>
+              <p><a target="_blank" href="{{product.link}}">{{product.link}}</a></p>
             </div>
           </li>
         </ul>

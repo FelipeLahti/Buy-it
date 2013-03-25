@@ -6,7 +6,8 @@ function ProductsCtrl($scope){
     { 
       name: "Keyboard Apple Wireless", 
       price: 160, 
-      description: { pt: "Novo. Na garantia até dezembro de 2013", en: "New. Warranty until December 2013"},
+      description: "New. Warranty until December 2013",
+      link: "http://store.apple.com/br/product/MC184BZ/B/teclado-sem-fio-da-apple?fnode=3e",
       imgs: [
         {img:"img/products/keyboard_apple_1.jpg"}, 
         {img:"img/products/keyboard_apple_2.jpg"}
@@ -15,8 +16,9 @@ function ProductsCtrl($scope){
     ,
     { 
       name: "Mouse Razer Boom Slang", 
-      price: 150, 
-      description: { pt: "Novo", en: "New"},
+      price: 210, 
+      description: "New",
+      link: "http://www.desktopreview.com/default.asp?newsID=402",
       imgs: [
         {img:"img/products/razer_boom_slang_1.jpg"}, 
         {img:"img/products/razer_boom_slang_2.jpg"}, 
@@ -30,8 +32,8 @@ function ProductsCtrl($scope){
     },
     { 
       name: "Mouse Razer Copperhead", 
-      price: 140, 
-      description: { pt: "Novo. Na caixa.", en: "New. With box."},
+      price: 170, 
+      description: "New. With box.",
       imgs: [
         {img:"img/products/razer_copperhead_1.jpg"}, 
         {img:"img/products/razer_copperhead_2.jpg"},
@@ -42,7 +44,8 @@ function ProductsCtrl($scope){
     { 
       name: "Headset Razer Piranha", 
       price: 140, 
-      description: { pt: "Novo. Na caixa.", en: "New. With box."},
+      description: "New. With box.",
+      link: "http://www.techpowerup.com/reviews/Razer/Piranha/",
       imgs: [
         {img:"img/products/razer_piranha.jpg"}
       ]

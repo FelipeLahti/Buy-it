@@ -43,7 +43,7 @@ function ProductsCtrl($scope){
     },
     { 
       name: "Headset Razer Piranha", 
-      price: 140, 
+      price: 160, 
       description: "New. With box.",
       link: "http://www.techpowerup.com/reviews/Razer/Piranha/",
       imgs: [
